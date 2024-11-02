@@ -1,0 +1,23 @@
+{
+    "config": "dev",
+    "dev": {
+        "port": 2024,
+        "databaseHost": "localhost",
+        "databaseName": "projectdb",
+        "databaseUsername": "postgres",
+        "databasePassword": "password",
+        "databasePort": 5432,
+        "jwtSecret": "jwt-secret",
+        "jwtAdminSecret": "jwt-admin-secret"
+    },
+    "prod": {
+        "port": 2025,
+        "databaseHost": "127.0.0.1",
+        "databaseName": "projectdb",
+        "databaseUsername": "postgres",
+        "databasePassword": "server_password",
+        "databasePort": 5432,
+        "jwtSecret": "jwt-secret",
+        "jwtAdminSecret": "jwt-admin-secret"
+    }
+}
