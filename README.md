@@ -1,6 +1,6 @@
 # jsonconfig
 
-##Usage
+## Usage
 ```go
   configuration := helper.ReadConfigurationFile()
 
